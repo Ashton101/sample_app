@@ -34,10 +34,11 @@ textarea {
 
 .center {
 	text-align: center;
-}
 
-.center hi {
-	margin-bottom: 10px;
+
+	h1 {
+		margin-bottom: 10px;
+	}
 }
 
 
@@ -79,22 +80,21 @@ p {
 
 
 
-
 #logo {
 	float: left;
 	margin-right: 10px;
 	font-size: 1.7em;
-	color: #AB9;
+	color: white;
 	text-transform: uppercase;
 	letter-spacing: -1px;
 	padding-top: 9px;
 	font-weight: bold;
 	line-height: 1;
-}
-
-#logo:hover {
-	color: #555;
-	text-decoration: none;
+	
+	&:hover {
+		color: #555;
+		text-decoration: none;
+	}
 }
 
 
@@ -116,13 +116,11 @@ footer {
 
  	a {
 		color: $gray;
-	
 
 	 	&:hover {
 			color: $grayDarker;
 		}
 	}
-
 
 	small {
 		float: left;
@@ -132,7 +130,6 @@ footer {
 		float: right;
 		list-style:none;
 	
-
 		li {
 			float: left;
 			margin-left: 10px;

@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.0.3'
 gem 'sass-rails', '4.0.1'
-gem 'bootstrap-sass', '3.1.1'
+gem 'bootstrap-sass', '2.3.2.0'
 gem 'sprockets', '2.11.0'
 
 group :development, :test do

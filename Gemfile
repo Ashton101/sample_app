@@ -6,10 +6,13 @@ gem 'rails', '4.0.3'
 gem 'sass-rails', '4.0.1'
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'sprockets', '2.11.0'
+gem 'protected_attributes'
+gem 'bcrypt-ruby'
 
 group :development, :test do
   gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
+  gem 'annotate' , '~> 2.4.1.beta'
 end
 
 group :test do
